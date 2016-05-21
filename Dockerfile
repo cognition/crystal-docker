@@ -17,7 +17,9 @@ ADD set-time.sh  /set-time.sh
 RUN  /set-time.sh
 
 
-VOLUME ["/scrpts"]
+
+
+VOLUME ["/scripts"]
 
 CMD ["/bin/bash"] 
 

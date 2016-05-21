@@ -4,6 +4,11 @@
 http://crystal-lang.org/
 
 
+usage: 
+
+docker run -it --volume $PWD/scripts:/scripts   rbrooker/crystal-docker 
+
+
 
 Maintained by 
 -------------
