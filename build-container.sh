@@ -2,5 +2,5 @@
 
 # MAINTAINER Ramon Brooker <rbrooker@aetherealmind.com>
 
-docker build -t rbrooker/crystallang:0 -t rbrooker/crystalang . 
+docker build -t rbrooker/crystalang:0 -t rbrooker/crystalang . 
 
