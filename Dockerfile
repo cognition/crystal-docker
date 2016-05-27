@@ -14,8 +14,8 @@ RUN apt-key adv --keyserver keys.gnupg.net --recv-keys 09617FD37CC06B54;   echo 
 RUN apt-get update; apt-get -y install crystal llvm colordiff colormake 
 # clean extra-files 
 # RUN  apt-get autoremove -y ; apt-get clean && rm -rf /var/lib/apt/lists/*
-ADD bashrc ~/.bashrc
-ADD bash_aliases ~/.bash_aliases
+ADD bashrc /root/.bashrc
+ADD bash_aliases /root/.bash_aliases
 
 
 
